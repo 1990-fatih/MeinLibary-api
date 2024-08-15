@@ -19,7 +19,7 @@ app.use(cors());
 
 //mongoose connection
 
-mongoose.connect("mongodb+srv://fatih:test123@cluster0.o6juzcv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{
+mongoose.connect("mongodb+srv://*****.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{
    
 }).then(console.log("Connected to Database"))
 .catch((err)=>console.log(err))
